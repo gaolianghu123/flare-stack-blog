@@ -141,6 +141,8 @@ mark {
       background-color 0.5s ease-in-out,
       color 0.5s ease-in-out;
     line-height: 1.6;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   ::selection {
@@ -158,31 +160,31 @@ mark {
 
   /* Typography Defaults */
   h1 {
-    @apply scroll-m-20 text-4xl font-serif font-medium tracking-tight lg:text-5xl;
+    @apply scroll-m-20 text-5xl font-serif font-semibold tracking-tight lg:text-6xl;
   }
 
   h2 {
-    @apply scroll-m-20 text-3xl font-serif font-medium tracking-tight first:mt-0;
+    @apply scroll-m-20 text-4xl font-serif font-semibold tracking-tight first:mt-0;
   }
 
   h3 {
-    @apply scroll-m-20 text-2xl font-serif font-medium tracking-tight;
+    @apply scroll-m-20 text-3xl font-serif font-semibold tracking-tight;
   }
 
   h4 {
-    @apply scroll-m-20 text-xl font-serif font-medium tracking-tight;
+    @apply scroll-m-20 text-2xl font-serif font-semibold tracking-tight;
   }
 
   h5 {
-    @apply scroll-m-20 text-lg font-serif font-medium tracking-tight;
+    @apply scroll-m-20 text-lg font-serif font-semibold tracking-tight;
   }
 
   h6 {
-    @apply scroll-m-20 text-base font-serif font-medium tracking-tight;
+    @apply scroll-m-20 text-base font-serif font-semibold tracking-tight;
   }
 
   p {
-    @apply leading-7 not-first:mt-6;
+    @apply leading-8 not-first:mt-6;
   }
 
   blockquote {
@@ -198,7 +200,7 @@ mark {
   }
 
   code {
-    @apply relative rounded px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold;
+    @apply relative rounded px-[0.3rem] py-[0.2rem] font-mono text-base font-semibold;
   }
 
   small {
